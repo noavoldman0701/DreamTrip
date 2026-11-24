@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 90" role="img" aria-label="DreamTrip">
+  <!-- Dashed flight path with a small loop -->
+  <path d="M120 40 C 140 36, 146 18, 158 20 C 170 22, 160 38, 150 30 C 144 24, 172 12, 204 10"
+        fill="none" stroke="#B77C90" stroke-width="1.6" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <!-- Paper plane -->
+  <g transform="translate(204 0) rotate(8)" fill="none" stroke="#7E4E60" stroke-width="1.8"
+     stroke-linejoin="round">
+    <path d="M0 10 L26 0 L18 22 L12 14 Z" fill="#F2E2DF"/>
+    <path d="M12 14 L26 0"/>
+  </g>
+  <!-- Wordmark (uses the Great Vibes web font loaded in style.css) -->
+  <text x="6" y="80" font-family="'Great Vibes', 'Brush Script MT', cursive" font-size="50"
+        fill="#382F34" textLength="196" lengthAdjust="spacingAndGlyphs">DreamTrip</text>
+</svg>

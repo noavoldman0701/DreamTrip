@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" fill="none" stroke="#B77C90" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<!-- Decorative Colosseum-style line drawing (original artwork for DreamTrip) -->
+<path d="M30 280 H480 M30 210 H480 M30 280 V210"/>
+<path d="M30 216 H480" stroke-width="1"/>
+<path d="M37.0 280 V242.0 A18.0 18.0 0 0 1 73.0 242.0 V280"/>
+<path d="M80 280 V216" stroke-width="1.2"/>
+<path d="M87.0 280 V242.0 A18.0 18.0 0 0 1 123.0 242.0 V280"/>
+<path d="M130 280 V216" stroke-width="1.2"/>
+<path d="M137.0 280 V242.0 A18.0 18.0 0 0 1 173.0 242.0 V280"/>
+<path d="M180 280 V216" stroke-width="1.2"/>
+<path d="M187.0 280 V242.0 A18.0 18.0 0 0 1 223.0 242.0 V280"/>
+<path d="M230 280 V216" stroke-width="1.2"/>
+<path d="M237.0 280 V242.0 A18.0 18.0 0 0 1 273.0 242.0 V280"/>
+<path d="M280 280 V216" stroke-width="1.2"/>
+<path d="M287.0 280 V242.0 A18.0 18.0 0 0 1 323.0 242.0 V280"/>
+<path d="M330 280 V216" stroke-width="1.2"/>
+<path d="M337.0 280 V242.0 A18.0 18.0 0 0 1 373.0 242.0 V280"/>
+<path d="M380 280 V216" stroke-width="1.2"/>
+<path d="M387.0 280 V242.0 A18.0 18.0 0 0 1 423.0 242.0 V280"/>
+<path d="M430 280 V216" stroke-width="1.2"/>
+<path d="M437.0 280 V242.0 A18.0 18.0 0 0 1 473.0 242.0 V280"/>
+<path d="M480 280 V216" stroke-width="1.2"/>
+<path d="M30 210 H380 M30 146 H380 M30 210 V146"/>
+<path d="M30 152 H380" stroke-width="1"/>
+<path d="M38.0 210 V177.0 A17.0 17.0 0 0 1 72.0 177.0 V210"/>
+<path d="M80 210 V152" stroke-width="1.2"/>
+<path d="M88.0 210 V177.0 A17.0 17.0 0 0 1 122.0 177.0 V210"/>
+<path d="M130 210 V152" stroke-width="1.2"/>
+<path d="M138.0 210 V177.0 A17.0 17.0 0 0 1 172.0 177.0 V210"/>
+<path d="M180 210 V152" stroke-width="1.2"/>
+<path d="M188.0 210 V177.0 A17.0 17.0 0 0 1 222.0 177.0 V210"/>
+<path d="M230 210 V152" stroke-width="1.2"/>
+<path d="M238.0 210 V177.0 A17.0 17.0 0 0 1 272.0 177.0 V210"/>
+<path d="M280 210 V152" stroke-width="1.2"/>
+<path d="M288.0 210 V177.0 A17.0 17.0 0 0 1 322.0 177.0 V210"/>
+<path d="M330 210 V152" stroke-width="1.2"/>
+<path d="M338.0 210 V177.0 A17.0 17.0 0 0 1 372.0 177.0 V210"/>
+<path d="M380 210 V152" stroke-width="1.2"/>
+<path d="M380 210 V156 L392 210"/>
+<path d="M30 146 H280 M30 88 H280 M30 146 V88"/>
+<path d="M30 94 H280" stroke-width="1"/>
+<path d="M40.0 146 V117.0 A15.0 15.0 0 0 1 70.0 117.0 V146"/>
+<path d="M80 146 V94" stroke-width="1.2"/>
+<path d="M90.0 146 V117.0 A15.0 15.0 0 0 1 120.0 117.0 V146"/>
+<path d="M130 146 V94" stroke-width="1.2"/>
+<path d="M140.0 146 V117.0 A15.0 15.0 0 0 1 170.0 117.0 V146"/>
+<path d="M180 146 V94" stroke-width="1.2"/>
+<path d="M190.0 146 V117.0 A15.0 15.0 0 0 1 220.0 117.0 V146"/>
+<path d="M230 146 V94" stroke-width="1.2"/>
+<path d="M240.0 146 V117.0 A15.0 15.0 0 0 1 270.0 117.0 V146"/>
+<path d="M280 146 V94" stroke-width="1.2"/>
+<path d="M280 146 V98 L292 146"/>
+<path d="M30 88 V54 H210 L230 88 "/>
+<rect x="50" y="64" width="14" height="12" stroke-width="1.2"/>
+<rect x="92" y="64" width="14" height="12" stroke-width="1.2"/>
+<rect x="134" y="64" width="14" height="12" stroke-width="1.2"/>
+<rect x="176" y="64" width="14" height="12" stroke-width="1.2"/>
+<path d="M10 280 H520" stroke-width="1.4"/>
+</svg>

@@ -1,0 +1,249 @@
+/* ==========================================================================
+   DreamTrip - custom styles
+   Loaded once by ui.load_styles(). Colors match .streamlit/config.toml.
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap");
+
+:root {
+    --dt-bg: #FAF7F2;
+    --dt-surface: #FFFFFF;
+    --dt-soft: #F2E2DF;
+    --dt-accent: #B77C90;
+    --dt-accent-dark: #7E4E60;
+    --dt-text: #382F34;
+    --dt-muted: #8A7D83;
+    --dt-border: #EADBD5;
+    --dt-radius: 16px;
+    --dt-shadow: 0 6px 24px rgba(56, 47, 52, 0.06);
+}
+
+/* --- Typography ---------------------------------------------------------- */
+
+.stApp {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    color: var(--dt-text);
+}
+
+h1, h2, h3, .dt-title {
+    font-family: "Playfair Display", Georgia, serif !important;
+    color: var(--dt-text);
+    letter-spacing: 0.2px;
+}
+
+/* --- Page layout --------------------------------------------------------- */
+
+.block-container {
+    padding-top: 4rem;
+    max-width: 1280px;
+}
+
+/* Hide the default Streamlit top decoration bar. */
+[data-testid="stDecoration"] {
+    display: none;
+}
+
+/* --- Sidebar ------------------------------------------------------------- */
+.dt-sidebar-logo svg,
+.dt-hero-text svg {
+    padding-left: 0.5rem;
+    overflow: visible;
+}
+
+.dt-sidebar-logo svg {
+    width: 100%;
+    max-width: 190px;
+    margin: 0 0 1rem;
+}
+
+/* Navigation buttons: plain, left-aligned rows. */
+[data-testid="stSidebar"] .stButton button {
+    justify-content: flex-start;
+    border: none;
+    background: transparent;
+    color: var(--dt-text);
+    border-radius: 12px;
+    padding: 0.55rem 0.9rem;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+/* Align the icon and text of the menu buttons to the left. */
+[data-testid="stSidebar"] .stButton button,
+[data-testid="stSidebar"] .stButton button > div {
+    justify-content: flex-start !important;
+    text-align: left;
+}
+
+[data-testid="stSidebar"] .stButton button:hover {
+    background: var(--dt-soft);
+    color: var(--dt-accent-dark);
+}
+
+/* The active page is a primary button. */
+[data-testid="stSidebar"] .stButton button[kind="primary"],
+[data-testid="stSidebar"] .stButton button[data-testid="stBaseButton-primary"] {
+    background: var(--dt-soft);
+    color: var(--dt-accent-dark);
+    font-weight: 600;
+}
+
+.dt-sidebar-landmark {
+    margin-top: 2rem;
+    opacity: 0.35;
+}
+
+/* --- Hero (Home page) ---------------------------------------------------- */
+
+.dt-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 24px;
+    background: linear-gradient(120deg, #FDF9F6 0%, #F7EBE7 55%, #F2E2DF 100%);
+    border: 1px solid var(--dt-border);
+    overflow: hidden;
+}
+
+.dt-hero-text {
+    flex: 1 1 50%;
+}
+
+.dt-hero-text svg {
+    width: 100%;
+    max-width: 360px;
+}
+
+.dt-hero-tagline {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.35rem;
+    margin: 0.5rem 0 0;
+}
+
+.dt-hero-sub {
+    color: var(--dt-muted);
+    margin-top: 0.4rem;
+}
+
+.dt-hero-art {
+    flex: 1 1 45%;
+    text-align: right;
+}
+
+.dt-hero-art img {
+    width: 100%;
+    max-width: 460px;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* --- Page header --------------------------------------------------------- */
+
+.dt-page-header {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin: 0.5rem 0 1.2rem;
+}
+
+.dt-page-header .dt-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: var(--dt-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.dt-page-title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.dt-page-header p {
+    margin: 0;
+    color: var(--dt-muted);
+}
+
+/* --- Search form card ---------------------------------------------------- */
+
+[data-testid="stForm"] {
+    background: var(--dt-surface);
+    border: 1px solid var(--dt-border) !important;
+    border-radius: var(--dt-radius);
+    box-shadow: var(--dt-shadow);
+    padding: 1.5rem 1.75rem;
+}
+
+/* Section labels inside the search form. */
+.dt-form-section {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--dt-accent-dark);
+    margin: 0.4rem 0 0.2rem;
+}
+
+/* --- Inputs -------------------------------------------------------------- */
+
+[data-baseweb="input"],
+[data-baseweb="select"] > div,
+[data-baseweb="textarea"] {
+    border-radius: 10px !important;
+}
+
+[data-testid="stWidgetLabel"] p {
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+/* --- Buttons ------------------------------------------------------------- */
+
+.stButton button,
+.stFormSubmitButton button,
+.stLinkButton a {
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.stFormSubmitButton button {
+    padding: 0.7rem 1rem;
+    letter-spacing: 0.02em;
+}
+
+/* --- Metrics ------------------------------------------------------------- */
+
+[data-testid="stMetric"] {
+    background: var(--dt-surface);
+    border: 1px solid var(--dt-border);
+    border-radius: var(--dt-radius);
+    padding: 0.9rem 1.1rem;
+}
+
+[data-testid="stMetricValue"] {
+    font-family: "Playfair Display", Georgia, serif;
+    color: var(--dt-accent-dark);
+}
+
+/* --- Expander ------------------------------------------------------------ */
+
+[data-testid="stExpander"] details {
+    border-radius: 12px;
+    border-color: var(--dt-border);
+    background: #FCF9F7;
+}
+
+/* --- Alerts -------------------------------------------------------------- */
+
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
